@@ -1,6 +1,6 @@
 {
-  "name": "antd",
-  "version": "4.24.7",
+  "name": "ant-design-sos",
+  "version": "4.24.7-select-force-render.1",
   "description": "An enterprise-class UI design language and React components implementation",
   "title": "Ant Design",
   "keywords": [
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/ant-design"
+    "url": "https://github.com/Ondrej-Strejcek/ant-design"
   },
   "license": "MIT",
   "contributors": [
@@ -157,6 +157,7 @@
     "rc-trigger": "^5.2.10",
     "rc-upload": "~4.3.0",
     "rc-util": "^5.22.5",
+    "react-select": "^14.2.0-force-dropdown-render.3",
     "scroll-into-view-if-needed": "^2.2.25"
   },
   "devDependencies": {

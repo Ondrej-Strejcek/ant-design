@@ -1,10 +1,10 @@
 // TODO: 4.0 - codemod should help to change `filterOption` to support node props.
 
 import classNames from 'classnames';
-import type { SelectProps as RcSelectProps } from 'rc-select';
-import RcSelect, { BaseSelectRef, OptGroup, Option } from 'rc-select';
-import { OptionProps } from 'rc-select/lib/Option';
-import type { BaseOptionType, DefaultOptionType } from 'rc-select/lib/Select';
+import type { SelectProps as RcSelectProps } from 'react-select';
+import RcSelect, { BaseSelectRef, OptGroup, Option } from 'react-select';
+import { OptionProps } from 'react-select/lib/Option';
+import type { BaseOptionType, DefaultOptionType } from 'react-select/lib/Select';
 import omit from 'rc-util/lib/omit';
 import * as React from 'react';
 import { useContext } from 'react';

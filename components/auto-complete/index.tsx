@@ -7,7 +7,7 @@
  */
 
 import classNames from 'classnames';
-import type { BaseSelectRef } from 'rc-select';
+import type { BaseSelectRef } from 'react-select';
 import toArray from 'rc-util/lib/Children/toArray';
 import omit from 'rc-util/lib/omit';
 import * as React from 'react';
@@ -88,7 +88,7 @@ const AutoComplete: React.ForwardRefRenderFunction<RefSelectProps, AutoCompleteP
     optionChildren = children;
   } else {
     optionChildren = dataSource
-      ? dataSource.map(item => {
+      ? dataSource.map((item) => {
           if (isValidElement(item)) {
             return item;
           }

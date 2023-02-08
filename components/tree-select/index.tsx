@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import type { BaseSelectRef } from 'rc-select';
+import type { BaseSelectRef } from 'react-select';
 import type { TreeSelectProps as RcTreeSelectProps } from 'rc-tree-select';
 import RcTreeSelect, { SHOW_ALL, SHOW_CHILD, SHOW_PARENT, TreeNode } from 'rc-tree-select';
 import type { BaseOptionType, DefaultOptionType } from 'rc-tree-select/lib/TreeSelect';
