@@ -3,9 +3,14 @@
 import * as React from 'react';
 import omit from 'rc-util/lib/omit';
 import classNames from 'classnames';
-import RcSelect, { Option, OptGroup, SelectProps as RcSelectProps, BaseSelectRef } from 'rc-select';
-import type { BaseOptionType, DefaultOptionType } from 'rc-select/lib/Select';
-import { OptionProps } from 'rc-select/lib/Option';
+import RcSelect, {
+  Option,
+  OptGroup,
+  SelectProps as RcSelectProps,
+  BaseSelectRef,
+} from 'react-select';
+import type { BaseOptionType, DefaultOptionType } from 'react-select/lib/Select';
+import { OptionProps } from 'react-select/lib/Option';
 import { ConfigContext } from '../config-provider';
 import getIcons from './utils/iconUtil';
 import SizeContext, { SizeType } from '../config-provider/SizeContext';

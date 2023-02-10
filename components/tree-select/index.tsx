@@ -9,7 +9,7 @@ import RcTreeSelect, {
 import classNames from 'classnames';
 import omit from 'rc-util/lib/omit';
 import type { BaseOptionType, DefaultOptionType } from 'rc-tree-select/lib/TreeSelect';
-import type { BaseSelectRef } from 'rc-select';
+import type { BaseSelectRef } from 'react-select';
 import { ConfigContext } from '../config-provider';
 import devWarning from '../_util/devWarning';
 import { AntTreeNodeProps, TreeProps } from '../tree';

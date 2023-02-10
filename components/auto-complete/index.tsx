@@ -10,7 +10,7 @@ import * as React from 'react';
 import toArray from 'rc-util/lib/Children/toArray';
 import classNames from 'classnames';
 import omit from 'rc-util/lib/omit';
-import type { BaseSelectRef } from 'rc-select';
+import type { BaseSelectRef } from 'react-select';
 import Select, {
   BaseOptionType,
   DefaultOptionType,
